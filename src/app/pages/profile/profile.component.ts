@@ -2,7 +2,7 @@ import {HttpClient} from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 import {NbAuthJWTToken, NbAuthService} from '@nebular/auth';
-import {LoginService} from 'src/app/services/login.service';
+import {LoginService} from '../../services/login.service';
 
 @Component({
   selector: 'app-profile',
