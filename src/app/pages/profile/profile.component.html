@@ -1,0 +1,14 @@
+<nb-card>
+    <nb-card-body class="example-items-rows">
+        <div class="flex">
+            <nb-user [name]="user?.name | titlecase" [picture]="user?.picture"></nb-user>
+            <div>
+                <button nbButton status="primary" (click)="logout()">Logout</button>
+            </div>
+        </div>
+
+        <div class="user__container">
+            <h1>Welcome {{ user?.name | titlecase }}!</h1>
+        </div>
+    </nb-card-body>
+</nb-card>
